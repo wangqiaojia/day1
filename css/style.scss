@@ -36,3 +36,49 @@ html,body{
 		}
 	}
 }
+
+
+.main{
+	width:100%;
+	height:100%;
+	/*padding:0 1rem;*/
+	.box1{
+		width:100%;
+		height:8rem;
+		/*padding:0 1rem;*/
+		border:1px solid #ccc;
+		border-radius: 10px;
+		margin-top:1rem;
+		box-shadow: 1px 1px 1px #666;
+		.top{
+			display:flex;
+			height:4rem;
+			/*padding:0 1rem;*/
+			background:#FD6060;
+			-webkit-justify-content:space-between;
+			/*border-radius: 10px;*/
+			.left{
+				display:flex;
+				color:#fff;
+				span{
+					font-size:2rem;
+				}
+				h3{
+					font-size:3rem;
+				}
+			}
+			.right{
+				color:#fff;
+				font-size:2rem;
+				line-height:4rem;
+			}
+		}
+	}
+}
+
+.bottom{
+	color:#30B881;
+	font-size:.24rem;
+	line-height:2rem;
+	text-indent: .4rem;
+}
